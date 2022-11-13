@@ -9,3 +9,5 @@ These included implementing autoencoders instead of 1D CNN, leaving out certain 
 Finally, two different approaches were undertaken with the 1D CNN model and both accelerometer and gyroscope readings in all three directions.
 The first method obtains the gender recognition accuracies for each sensor measuring each activity with a 1D CNN, and the second method fuses readings from multiple sensors for each activity via a multi-head 1D CNN.
 
+Paper and methodology TBA
+
