@@ -1,10 +1,6 @@
 # Human-Biometric-Recognition
 
-The code implements gender recognition utilizing wearable sensor data for multiple activities and sensor placements. 
-Several approaches were tested as part of overall research to determine the sensor, activity combinations, and model architecture to obtain the best results.
-These included implementing autoencoders instead of 1D CNN, leaving out certain signal features in different directions, and leaving out gyroscope readings altogether. 
-Finally, two different approaches were undertaken with the 1D CNN model and both accelerometer and gyroscope readings in all three directions.
-The first method obtains the gender recognition accuracies for each sensor measuring each activity with a 1D CNN, and the second fuses readings from multiple sensors for each activity via a multi-head 1D CNN.
+This code implements gender recognition utilizing wearable sensor data across various activities and sensor placements. As part of our comprehensive research, we explored multiple approaches to identify the most effective combinations of sensors, activities, and model architectures for optimal results. Our experiments included the use of autoencoders in place of 1D Convolutional Neural Networks (CNNs), the omission of certain signal features in different directions, and the exclusion of gyroscope readings altogether.  Ultimately, we pursued two distinct strategies with the 1D CNN model, incorporating both accelerometer and gyroscope data in all three directions. The first method evaluated gender recognition accuracy for each sensor and activity using a 1D CNN. The second fuses data from multiple sensors for each activity using a multi-head 1D CNN.
 
-Reference:
+Citation:
 Supriya Roy, Bahareh Nakisa, Pubudu N. Pathirana, and Richard Dazeley, 2024. "A Wearable Multi-Sensor Fusion Approach for Gender Recognition based on Deep Learning," in Proceedings of the 2023 10th International Conference on Bioinformatics Research and Applications (ICBRA '23), Association for Computing Machinery, New York, NY, USA, pp. 114–119. https://doi.org/10.1145/3632047.3632065
